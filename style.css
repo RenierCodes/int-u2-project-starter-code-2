@@ -1,13 +1,13 @@
 
 /* The code below centers the text of all h1's on the page. */
 body {
-    background-color:lightblue;
+    background-color:#9dd1e4;
 }
 h1 {
     text-align:center;
     margin-left: 50px;
     margin-right: 50px;
-    color: #002941;
+    color: #00395C;
 }
 
 /* The code below centers all images on the page and gives them a width of 400px. */
@@ -24,14 +24,14 @@ h2 {
     text-align:center;
     margin-left: 50px;
     margin-right: 50px;
-    color: #002941;
+    color: #00395C;
 }
 
 h3 {
     text-align:center;
     margin-left: 50px;
     margin-right: 50px;
-    color: #002941;
+    color: #00395C;
 }
 
 /* The code below aligns all the sections horizontally on the bottom. */
@@ -50,9 +50,40 @@ p {
     text-align:justify;
     margin-left: 50px;
     margin-right: 50px;
-    color: #002941;
+    color: #00395C;
 }
 
 .box {
     width: 500px;
+}
+
+ul {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #00395C;
+}
+
+.myth {
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.fact {
+    font-weight: bold;
+    color: #008000;
+}
+.btn-resource {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00395C;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn-resource:hover {
+    background-color: #005A9C;
+    transform: translateY(-2px);
 }
